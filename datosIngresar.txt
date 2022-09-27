@@ -1,0 +1,102 @@
+User-------------------------
+
+{
+"user_type":"Auxiliar Enfermero",
+"username":"rolando",
+"password":"password123",
+"email":"roolando@correo.com",
+"nombre":"Daniel",
+"apellido":"Quintero",
+"direccion":"Av siempre viva",
+"userGeneral":{
+    "area":"mercadotecnia",
+    "auxiliar":"True"
+}
+}
+
+------------------------------------------------
+Historia----------------------------------------
+
+{
+    "oximetria": "40",
+    "f_respiratoria": "24",
+    "f_cardiaca": "35",
+    "temperatura": "20",
+    "presionArterial": "110",
+    "glicemias": "21",
+    "diagnostico":"Paciente con problemas respiratorios",
+    "sugerencia":"Realizar nebulizaciones en casa"
+}
+
+---------------------------------------------------
+Medico---------------------------------------------
+
+{
+    "user_type": "Medico",
+    "username": "camilaRami",
+    "password": "password4321",
+    "email": "camir@correo.com",
+    "nombre": "camila",
+    "apellido": "ramirez",
+    "direccion":"cll56a#17c90",
+    "medico":{
+	"especialidad":"Medico General"	
+}
+}
+
+---------------------------------------------------------
+Enfermero------------------------------------------------
+
+{
+"area":"Recepcion",
+"Auxiliar":"False",
+"auxiliarId":"1",
+"citaDate":"2022-09-15",
+"notas":"validacion de signos vitales"
+}
+
+-----------------------------------------------------------
+Familiar---------------------------------------------------
+
+
+{
+"user_type":"familiar",
+"username":"susanper",
+"password":"passwo321",
+"email":"susanperez@correo.com",
+"nombre":"Susan",
+"apellido":"Perez",
+"direccion":"cll58#4738",
+"familiar":{
+    "parentesco":"hermana"
+}
+}
+
+
+----------------------------------------------------------
+
+Paciente--------------------------------------------------
+
+{
+"user_type":"Paciente",
+"username":"ferrero",
+"password":"password321",
+"email":"ferrerot@correo.com",
+"nombre":"frio",
+"apellido":"lacto",
+"direccion":"cll48#2730",
+"paciente":{
+    "medicoId":"1",
+    "hisCliId":"1",
+    "enfermeroId":"1"
+}
+}
+
+-------------------------------------------------------------------------
+login---------------------------------------------------------------------
+
+
+{
+"username":"ferrero",
+"password":"password321"
+}
